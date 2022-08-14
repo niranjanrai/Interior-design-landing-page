@@ -243,3 +243,59 @@ button {
     right: 10rem;
   }
 }
+@media (max-width: 733px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    padding: 0 3rem;
+  }
+  .logo h1 {
+    font-size: 2rem;
+  }
+  .nav-item-container {
+    gap: 3rem;
+  }
+  .nav-item {
+    font-size: 1.6rem;
+  }
+  .text {
+    font-size: 4rem;
+  }
+  .call-us,
+  .call-link {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .main-section {
+    padding: 0 3rem;
+  }
+  .puzzle-wrapper {
+    right: 10rem;
+  }
+  .Innovation-wrapper {
+    right: 10rem;
+  }
+}
+@media (max-width: 400px) {
+  .puzzle-wrapper {
+    right: 5rem;
+    bottom: 0%;
+  }
+  .Innovation-wrapper {
+    right: 5rem;
+    bottom: 0%;
+  }
+  .navbar {
+    padding: 0 2rem;
+  }
+  .nav-item-container {
+    gap: 2rem;
+  }
+  .nav-item-container {
+    flex-wrap: wrap;
+  }
+  .text {
+    font-size: 3rem;
+  }
+}

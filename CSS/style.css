@@ -237,9 +237,11 @@ button {
     padding: 0 3rem;
   }
   .puzzle-wrapper {
-    right: 10rem;
+    /* right: 10rem; */
+    display: none;
   }
   .Innovation-wrapper {
+    margin-top: 15rem;
     right: 10rem;
   }
 }
@@ -249,6 +251,9 @@ button {
   }
   .navbar {
     padding: 0 3rem;
+  }
+  .nav-items {
+    display: none;
   }
   .logo h1 {
     font-size: 2rem;
@@ -271,9 +276,11 @@ button {
     padding: 0 3rem;
   }
   .puzzle-wrapper {
+    bottom: -10;
     right: 10rem;
   }
   .Innovation-wrapper {
+    bottom: 0;
     right: 10rem;
   }
 }
@@ -297,5 +304,13 @@ button {
   }
   .text {
     font-size: 3rem;
+  }
+  .puzzle-wrapper {
+    display: none;
+    right: 10rem;
+  }
+  .Innovation-wrapper {
+    bottom: 0;
+    right: 10rem;
   }
 }

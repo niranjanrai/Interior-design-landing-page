@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
+/* ...........................  */
+/* CSS REST  */
+/* ...........................  */
+
 * {
   padding: 0;
   margin: 0;
@@ -21,10 +25,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* width: 100%; */
   height: 100vh;
   position: relative;
 }
+
+/* .......................  */
+/* Container   */
+/* .......................  */
 
 .container {
   max-width: 120rem;
@@ -37,7 +44,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* gap: 18rem; */
   align-items: center;
 }
 
@@ -117,10 +123,10 @@ button {
   background-color: transparent;
 }
 
-/* float style */
-.float {
-  /* position: relative; */
-}
+/* ...................  */
+/* Puzzle  */
+/* ...................  */
+
 .puzzle-wrapper {
   width: 28rem;
   height: 15rem;
@@ -237,7 +243,6 @@ button {
     padding: 0 3rem;
   }
   .puzzle-wrapper {
-    /* right: 10rem; */
     display: none;
   }
   .Innovation-wrapper {
@@ -314,3 +319,5 @@ button {
     right: 10rem;
   }
 }
+
+/* ....................................................  */
